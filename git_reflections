@@ -6,7 +6,7 @@ $ git clone [URL]			downloads a repository (in total) including entire version h
 
 $ git diff [id1] [id2]		compare two commits with id1 and id2 (id1 is the older commit)
 							
-							-$ git diff 									without arguments compares the working directory and 													the staging area
+							-$ git diff 									without arguments compares the working directory and the staging area
 
 							-$ git diff	--staged 							difference between staging area and most recent commit	
 
@@ -82,9 +82,11 @@ $ git commit 				opens up the editor to write the commit message
 								   Subjects should be no greater than 50 characters, should begin with a capital letter and do not end with a period.
 
 							The Body
-								Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the what and why of a commit, not the how.
+								Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a
+								bit of explanation and context. Use the body to explain the what and why of a commit, not the how.
 
-								When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters.
+								When writing a body, the blank line between the title and the body is required and you should limit the length of each
+								line to no more than 72 characters.
 
 							The Footer
 								The footer is optional and is used to reference issue tracker IDs.
